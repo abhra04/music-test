@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+
+<style type="text/css">
+  .center {
+  line-height: 500px;
+  height: 500px;
+  text-align: center;
+}
+}
+</style>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,8 +15,11 @@
     <title>Music test</title>
     <script src="./dist/bundle.js" defer></script>
 </head>
+<body style="background-color:powderblue;">
 <body>
-    <button id="start-playing">Start Playing</button>
+    <div class="center">
+        <button id="start-playing">Start Playing</button>
+    </div>
     <div class="audio-elements-holder">
         <audio id="D4" src="./src/assets/D4.mp3"></audio>
         <audio id="F4" src="./src/assets/F4.mp3"></audio>
